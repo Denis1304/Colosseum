@@ -7,6 +7,7 @@ header {
 	background-image: url(../img/top_bg.jpg);
 	background-repeat: repeat-x;
 	background-position: top center;
+	background-size: cover;
 	min-height: 950px;
 	position: relative;
 	font-family: "BebasRegular"
@@ -22,12 +23,21 @@ header h1{
 	color: #fff;
 	margin-top: 68px;
 	position: absolute;
-	margin-left: 325px;
+	margin-left: 270px;
 	margin-top: 87px;
 	font-size:35px; 
     text-shadow: 3px 4px 2px black;
 }
-
+.ali-text{
+	text-align: center;
+	color: #fff;
+	margin-top: 68px;
+	position: absolute;
+	margin-left: 649px;
+	margin-top: 130px;
+	font-size:30px; 
+    text-shadow: 3px 4px 2px black;
+}
 header p{
 	font-family: "BebasRegular";
 	font-size: 21px;
