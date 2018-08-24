@@ -7,9 +7,10 @@ header {
 	background-image: url(../img/top_bg.jpg);
 	background-repeat: repeat-x;
 	background-position: top center;
-	min-height: 644px;
+	min-height: 950px;
 	position: relative;
 	font-family: "BebasRegular"
+
 }
 
 header a {
@@ -22,11 +23,16 @@ header h1{
 	margin-top: 68px;
 	position: absolute;
 	margin-left: 325px;
-	margin-top: 86px;
+	margin-top: 87px;
 	font-size:35px; 
-  text-shadow: 3px 4px 2px black;
+    text-shadow: 3px 4px 2px black;
 }
 
+header p{
+	font-family: "BebasRegular";
+	font-size: 21px;
+	color: #fff;
+}
 .top_line{
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255,255,255,.4)0 0 0 1px;
@@ -45,10 +51,10 @@ header h1{
 .top_adrs {
 	padding-left: 75px;
 	background-image: url(../img/top_map_icon.png);
-	background-position: 24px top;
+	background-position: 30px top;
 	background-repeat: no-repeat;
-	line-height: 26px;
-
+	line-height: 30px;
+ 
 }
 
 .top_adrs strong {
@@ -67,7 +73,7 @@ header h1{
 .logo_link{
 	position: relative;
 	width: 240px;
-	margin: auto;
+	margin-left: 113px;
 
 }
 
@@ -89,90 +95,3 @@ header h1{
 	font-size: 34px;
 }
 
-.button{
-	display: inline-block;
-	background-color:#D12F22;
-	height: 50px;
-	vertical-align: middle;
-	line-height: 50px;
-	padding: 0 25px;
-	font-size: 20px;
-	border-bottom: #AC160A 3px solid;
-}
-
-.button:hover{
-	background-color: #e64437;
-}
-
-.button:active{
-background-color: #e64438;
-}
-
-header .button{
-	margin-right: 23px;
-}
-
-.price_button{
-	line-height: 18px;
-	padding-top: 7px;
-	text-align: left;
-	padding-left: 61px;
-	background-image: url(../img/top_camera_logo.png);
-	background-repeat: no-repeat;
-	background-position: 8px 7px;
-}
-.buttons_top{
-	position: absolute;
-	width: 100%;
-	bottom: 33px;
-}
-
-.top_menu{
-	height: 68px;
-	background-color: #242424;
-	-webkit-box-shadow: rgba(255,255,255,.4)0 0 0 1px;
-	box-shadow: rgba(255,255,255,.4)0 0 0 1px;
-	font-family: "BebasRegular";
-	text-transform: uppercase;
-}
-
-.top_menu ul{
-	margin: 0;
-	padding-left: 43px;
-	list-style-type: none; 
-}
-.top_menu a{
-	color: #fff;
-	font-size: 20px;
-	display: block;
-	line-height: 62px;
-	padding:0 26px 0 48px;
-	border-left: #383838 1px solid;
-	background-image: url(../img/top_menu_icons.png);
-	background-repeat: no-repeat;
-	background-position: 20px 15px;
-
-}
-.top_menu li{
-	float: left;
-}
-.top_menu li.active,
-.top_menu li:hover{
-	background-color: #050505;
-}
-
-.top_menu li:nth-child(2) a{
-  background-position: 16px -70px;
-}
-.top_menu li:nth-child(3) a{
-	background-position: 25px -143px;
-}
-.top_menu li:nth-child(4) a{
-	background-position: 13px -220px;
-}
-.top_menu li:nth-child(5) a{
-	background-position: 11px -289px;
-}
-.top_menu li:nth-child(6) a{
-	background-position: 16px -383px;
-}
